@@ -21,5 +21,6 @@ function cleanInputString(str) {
   }
   //console.log(isInvalidInput("1e3"));
   function addEntry() {
-   targetId = "#" + entryDropdown.value;
-}
+   const targetId = '#' + entryDropdown.value;
+   const targetInputContainer = document.querySelector(targetId + ' .input-container');
+ }
